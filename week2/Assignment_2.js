@@ -24,6 +24,7 @@ You should apply constructor or class as another way to create a proper object.
 //方法一：先存近一個類別 再丟入函數裡
 class Calculate {
     constructor(n1, n2) {
+        this.op = op;
         this.n1 = n1;
         this.n2 = n2;
     }
